@@ -1,6 +1,6 @@
 # Reproduction: Compatibility Issue with Cloudflare Worker
 
-This is a reproduction for issue [Placeholder](...)
+This is a reproduction for https://github.com/paralleldrive/cuid2/issues/112.
 
 ## Steps to Reproduce
 
@@ -30,6 +30,6 @@ Server fails to start with the following error:
 
 ## Additional Information
 
-This code was bootstrapped following [Cloudflare official docs](https://developers.cloudflare.com/workers/vite-plugin/get-started/).
+This repo was bootstrapped following [Cloudflare official docs](https://developers.cloudflare.com/workers/vite-plugin/get-started/).
 
 Code of interest is at [src/index.ts`](./src/index.ts):
